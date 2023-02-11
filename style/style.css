@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 30px 5px 30px 5px;
+    background-color: lightgray;
+    height: 5px ;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+
+nav>a{
+border: 1px solid black;
+padding: 4px;
+text-decoration: none;
+color: black;
+margin-inline: 2px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+nav{
+    font-size: 5px;
+
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+
+}
