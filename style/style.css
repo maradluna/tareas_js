@@ -25,10 +25,35 @@ color: black;
 margin-inline: 2px;
 }
 
+.container{
+display: flex;
+justify-content: space-between;
+border: 1px solid black;
+align-items:center;
+background-color: mistyrose;
+}
+
+.container>a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    margin: 0px;
+}
+
+
 @media only screen and (min-width: 320px) and (max-width: 767px){
 nav{
     font-size: 5px;
+}
 
+.container{
+    padding: 0.5em;
+}
+
+.container>a{
+    font-size: 1.4em;
 }
 
 }
